@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(
-        origins = {"http://localhost:63342", "http://4.235.123.111"},
+        origins = {"http://localhost:63342", "http://4.235.123.111", "https://simabild.github.io"},
         methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.DELETE, RequestMethod.PUT}
 )
 public class EquipmentController {

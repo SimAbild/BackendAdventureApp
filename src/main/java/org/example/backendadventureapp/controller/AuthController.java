@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:63342", "http://4.235.123.111"})
+@CrossOrigin(origins = {"http://localhost:63342", "http://4.235.123.111", "https://simabild.github.io"})
 public class AuthController {
 
     @Autowired
